@@ -5,7 +5,7 @@ body {
 /* Navigation Bar */
 
 #home {
-  background-color:  #7600bc;
+  background-color:  #6a8fd0;
   padding-bottom: 1cm;
   margin-left:-1cm;
   margin-right:-1cm;
@@ -67,7 +67,7 @@ h2 {
   font-size: 50px;
   text-align: center;
   float: left;
-  color: #7600bc;
+  color: #6a8fd0;
   margin: 30px;
   margin-left: 60px;
   margin-top: 40px;
@@ -90,6 +90,9 @@ h2 {
 .container {
   display: flex;
   margin-top:150px;/*to cater for fixed nav bar overlay */
+  /* background: red; */
+  padding-left: 10px;
+  padding-bottom: 10px;
 }
 
 /* About Me */
@@ -102,7 +105,7 @@ h2 {
 #about-me h1 {
   font-size: 65px;
   margin-top: 90px;
-  color: #7600bc;
+  color: #6a8fd0;
 }
 
 #about-me p {
@@ -112,13 +115,22 @@ h2 {
   flex-wrap: wrap;
 }
 
-.profile_image {
-  width: 350px;
-  height: 80%;
-  border-radius: 10px;
-  box-shadow: 0 3px 10px gray;
+/* .container .profile_image_container{
+  background: red;
+  
+} */
+
+
+.profile_image_container .profile_image {
+  width: 250px;
+  height: 75%;
+  border-radius: 120%;
+  /* box-shadow: 0 3px 10px lightslategray; */
   vertical-align: middle;
-  margin: 5px 50px 0 auto;
+  margin: 50px 50px 0 50px;
+  border: 1px solid white;
+  /* background: yellowgreen; */
+
 }
 
 /* Skills */
@@ -240,7 +252,7 @@ h2 {
 }
 
 .recommendation span {
-  color: #7600bc;
+  color: #6a8fd0;
   font-size: 20px;
   font-family: 'Times New Roman', Times, serif;
 }
@@ -251,7 +263,7 @@ h2 {
   width: 48px;
   height: 48px;
   border-radius: 100%;
-  background-color: #7600bc;
+  background-color: #6a8fd0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -282,8 +294,8 @@ h2 {
 
 .popup button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #6a8fd0;
+  color: #6a8fd0;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -296,8 +308,8 @@ h2 {
 
 .popup button:hover {
   background-color: #fff;
-  border: 2px solid #7600bc;
-  color: #7600bc;
+  border: 2px solid #6a8fd0;
+  color: #6a8fd0;
   display: block;
   font-weight: bolder;
   text-align: center;
@@ -328,8 +340,8 @@ fieldset {
 
 button {
   background-color: #fff;
-  border: 1px solid #7600bc;
-  color: #7600bc;
+  border: 1px solid #6a8fd0;
+  color: #6a8fd0;
   display: block;
   border-radius: 6px;
   text-align: center;
@@ -340,8 +352,8 @@ button {
 }
 
 button:hover {
-  background-color: #7600bc;
-  border: 1px solid #7600bc;
+  background-color: #6a8fd0;
+  border: 1px solid #6a8fd0;
   color: #fff;
   display: block;
   border-radius: 6px;

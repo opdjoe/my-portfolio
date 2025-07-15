@@ -455,36 +455,4 @@ footer p {
   transform: scale(1.2);
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .topdiv {
-    padding-right: 0.5cm;
-  }
-  
-  .profile_name {
-    padding-left: 1cm;
-    font-size: 25px;
-  }
-
-  .section-title {
-    font-size: 30px;
-    margin: 20px;
-  }
-
-  .profile_image_container .profile_image {
-    width: 200px;
-    margin: 20px;
-  }
-
-  .skill {
-    width: auto;
-    margin: 10px;
-    padding: 5px;
-  }
-
-  .recommendation {
-    width: auto;
-    margin: 10px;
-    padding: 10px;
-  }
-}
+/* Media Queries */

@@ -60,11 +60,12 @@ body {
   display: flex;
   align-items: center;
   flex-direction: row;
+  text-transform: lowercase;
 }
 
-.contact_info img {
-  width:25px;
-  margin-right: 10px;
+.contact_info .fa {
+  width: 20px;
+  /* margin-right: 10px; */
   float:left;
 }
 

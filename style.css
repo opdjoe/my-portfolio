@@ -65,6 +65,7 @@ body {
   align-items: center;
   flex-direction: row;
   text-transform: lowercase;
+  text-decoration: none;
 }
 
 .contact_info .fa {

@@ -33,13 +33,16 @@
           +1 (218) 310 2950
         </div>
       </div>
-      <div class="topdiv">
-        <a class="topmenu" href="#about-me">About Me</a>
+      <div class="topdiv" id="myTopnav">
+        <a class="topmenu" href="#about-me" onclick="myFunction()">About Me</a>
         <!-- Add the links for Skills, Projects and Recommendation here -->
-        <a class="topmenu" href="#skills">Skills</a>
-        <a class="topmenu" href="#projects">Projects</a>
-        <a class="topmenu" href="#recommendations">Recommendation</a>
+        <a class="topmenu" href="#skills" onclick="myFunction()">Skills</a>
+        <a class="topmenu" href="#projects" onclick="myFunction()">Projects</a>
+        <a class="topmenu" href="#recommendations" onclick="myFunction()">Recommendation</a>
 
+        <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+          <i class="fa fa-bars"></i>
+        </a>
       </div>
     </div>
   </nav>
@@ -55,16 +58,18 @@
         <img src="images/portfolio-1.JPG" class="profile_image" />
       </div>
 
-      <div>
+      <div class="profile_text">
         <h1>
           Hi, I'm Opoku Duah!
           <!-- <img src="images/waving-hand.png" width="60px"/> -->
         </h1>
-        <p>
-          I am a full stack developer with 6 years of experience in both web application and presentation layers.
-          Proficient in WordPress, JavaScript, HTML, CSS, PHP and Java, and ReatJS front-end framework.
-          Passionate about creating user-friendly, dynamic web applications and collaborating in Agile environments.
-        </p>
+        <div class="profile_description">
+          <p>
+            I am a full stack developer with 6 years of experience in both web application and presentation layers.
+            Proficient in WordPress, JavaScript, HTML, CSS, PHP and Java, and ReatJS front-end framework.
+            Passionate about creating user-friendly, dynamic web applications and collaborating in Agile environments.
+          </p>
+        </div>
       </div>
     </div>
   </section>
@@ -231,6 +236,7 @@
         </div>
       </footer>
     </div>
+    <script></script>
 </body>
 
 </html>
